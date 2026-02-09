@@ -6,13 +6,21 @@ A proposta foi recriar um site modelo do zero, focando na prática e organizaç�
 --O que trabalhei aqui--
 
 Estruturação semântica em HTML5
+
 Estilização com CSS3
+
 Uso de fontes externas (@font-face)
+
 Gradientes com linear-gradient
+
 Organização de layout
+
 Listas personalizadas com pseudo-elementos
+
 Responsividade básica
+
 Centralização de imagens
+
 Divisão de listas em colunas
 
 --Objetivo--
