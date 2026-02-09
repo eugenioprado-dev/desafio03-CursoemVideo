@@ -1,0 +1,157 @@
+@charset 'UTF-8';
+@font-face {
+    font-family: 'idroid';
+    src: url('idroid.otf') format('opentype');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    line-height: 1.6;
+    letter-spacing: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(157, 230, 161);
+}
+
+header{
+    padding: 15px;
+    box-shadow: 5px 5px 10px rgba(134, 221, 94, 0.705);
+    background-image: linear-gradient(to bottom, rgb(131, 218, 131), rgb(66, 138, 66));
+}
+
+header h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin: 20px 0;
+    color: rgb(255, 255, 255);
+}
+
+header p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    text-indent: 20px;
+    margin-bottom: 10px;
+    color: rgb(255, 255, 255);
+}
+
+header nav{
+    display: flex;
+    font-size: 15px;
+    margin-left: 20px;
+    gap: 10px;
+    color: rgb(255, 255, 255);
+    list-style: none;
+    cursor: pointer;
+}
+
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    text-align: justify;
+}
+
+a{
+    color: darkgreen;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.principal{
+    font-size: 28px;
+    background-image: none;
+}
+
+main h1{
+    color: rgb(8, 58, 29);
+    font-family: 'idroid', Arial, Helvetica, sans-serif;
+    text-indent: 15px;
+    font-size: 22px;
+    margin: 20px 0;
+    background-image: linear-gradient(to right, rgba(123, 196, 123, 0.411), rgba(168, 202, 168, 0.322));
+    
+}
+
+main p{
+    text-indent: 33px;
+}
+
+img {
+    padding: 1%;
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.bug{
+    padding: 1%;
+    display: block;
+    margin: 0 auto;
+    height: 50%;
+    width: 50%;
+}
+
+.midia{
+    padding: 1%;
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+article{
+    border-radius: 15px;
+    padding: 0px 2px 40px 2px;
+    display: block;
+    margin: 0 auto;
+    background-color: rgb(182, 241, 212);
+}
+
+.lista{
+    list-style: none;
+    padding: 0;
+}
+ul{ 
+    columns: 2;
+    list-style: none;
+    padding: 0;
+    color: green;
+}
+
+.lista li::before {
+    content: "✔ ";
+    color: green;
+}
+
+.lista, .lista02 li::before {
+    content: "✔ ";
+    color: green;
+}
+
+.secundario{
+
+    padding: 0px 0px 30px 0px;
+    color: white;
+    font-size: 23px;
+    background-image: none;
+    border-radius: 10px;
+    width: 100%;
+    background-color: rgb(72, 187, 149);
+}
+
+footer{
+    background-color: #085018;
+    color: white;
+    text-align: center; 
+    font-size: 15px;
+    padding: 1px;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
